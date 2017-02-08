@@ -12,7 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="description" content="Personal bio of Mikhail Advani, Software Consultant">
     <meta name="keywords"
-          content="Mikhail Advani, Software Consultant, Devops Engineer, Quality Analyst, Security Enthusiast"/>
+          content="Mikhail Advani, Software Consultant, Devops Consultant, Quality Analyst, Security Enthusiast"/>
     <link rel="canonical" href="https://mikhailadvani.github.io">
     <meta property="og:type" content="profile">
     <meta property="profile:first_name" content="Mikhail">
@@ -75,7 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="main" id="home">
         <div class="banner">
             <img src="images/mikhail_display_pic.jpg" alt=" " class="img-responsive">
-            <h1 hidden="hidden">MIKHAIL ADVANI</h1>
+            <!--<h1 hidden="hidden">MIKHAIL ADVANI</h1>-->
             <h2>MIKHAIL ADVANI</h2>
             <span>SOFTWARE CONSULTANT</span>
             <div class="callbacks_container">
@@ -87,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </li>
                     <li>
                         <div class="slider-info">
-                            <p>Devops Engineer</p>
+                            <p>Devops Consultant</p>
                         </div>
                     </li>
                     <li>
@@ -115,12 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3 class="w3l_head">About Me</h3>
             <p class="w3ls_head_para">A few words about me</p>
             <div class="w3l-grids-about">
-                <div class="col-md-5 w3ls-ab-right">
-                    <div class="agile-about-right-img">
-                        <img src="images/mikhail_display_pic.jpg" alt="Mikhail Advani">
-                    </div>
-                </div>
-                <div class="col-md-7 w3ls-agile-left">
+                <div class="col-md-12 w3ls-agile-left">
                     <div class="w3ls-agile-left-info">
                         <h4>Name</h4>
                         <p>Mikhail Advani</p>
@@ -155,7 +150,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h4>November 2014-Present</h4>
                     </div>
                     <div class="education-agile-w3l-info">
-                        <h4>Devops Engineer</h4>
+                        <h4>Devops Consultant</h4>
                         <p>Extensively worked on CI/CD setup for multiple clients. Also involved in data center to cloud migration for a consumer electronics manufacturer </p>
 
                     </div>
@@ -211,14 +206,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <div class="education" id="education">
         <div class="col-md-6 skills">
-            <h3 class="w3l_head two">My Skills</h3>
+            <h3 class="w3l_head two">Tools/Technologies</h3>
             <div class="skill-agile">
                 <div class='bar_group'>
-                    <div class='bar_group__bar thin elastic' label='CI/CD' value='100'></div>
-                    <div class='bar_group__bar thin elastic' label='AWS' value='60'></div>
                     <div class='bar_group__bar thin elastic' label='Ansible' value='90'></div>
-                    <div class='bar_group__bar thin elastic' label='Linux' value='70'></div>
-                    <div class='bar_group__bar thin elastic' label='Python' value='75'></div>
+                    <div class='bar_group__bar thin elastic' label='AWS' value='60'></div>
+                    <div class='bar_group__bar thin elastic' label='GoCD' value='100'></div>
+                    <div class='bar_group__bar thin elastic' label='Linux' value='75'></div>
+                    <div class='bar_group__bar thin elastic' label='Python' value='70'></div>
                 </div>
 
             </div>
@@ -267,20 +262,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="clearfix"> </div>
     </div>
-    <!--<div class="portfolio" id="gallery">-->
-        <!--<div class="container">-->
-            <!--<h3 class="w3l_head">My Works</h3>-->
-            <!--<p class="w3ls_head_para">My Github Activity</p>-->
-            <!--<div class="agileits_portfolio_grids">-->
-                <!--<div class="col-md-12 agileits_portfolio_grid" align="center">-->
-                    <!--<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="https://mikhailadvani.github.io/gh-activity/gh-activity.html?user=mikhailadvani&repo=cis-aws-automation&type=user" height="262" width="550"></iframe>-->
-                <!--</div>-->
-                <!--<div class="clearfix"> </div>-->
-            <!--</div>-->
-
-
-        <!--</div>-->
-    <!--</div>-->
+    <div id="counter" class="counter">
+        <div class="container">
+            <!--count-down -->
+            <div class="count">
+                <div class="col-md-3 agile_count_grid">
+                    <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                    <h5>PROJECTS</h5>
+                    <p class="counter" id="projects">Information Not Available</p>
+                </div>
+                <div class="col-md-3 agile_count_grid">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <h5>Followers</h5>
+                    <p class="counter" id="followers">Information Not Available</p>
+                </div>
+                <div class="col-md-3 agile_count_grid c3">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <h5>Star Gazers</h5>
+                    <p class="counter" id="stargazers">Information Not Available</p>
+                </div>
+                <div class="col-md-3 agile_count_grid c4">
+                    <span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"></span>
+                    <h5>Received Events</h5>
+                    <p class="counter" id="received_events">Information Not Available</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
     <div class="w3l_footer" id="contact">
         <div class="w3ls_footer_grids">
             <div class="w3ls_footer_grid">
@@ -427,6 +436,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             $().UItoTop({easingType: 'easeOutQuart'});
 
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery.when(jQuery.getJSON('https://api.github.com/users/mikhailadvani/repos').done(function (repos) {
+                l=0;
+                for (i = 0; i < repos.length; i++) {
+                    l = l + repos[i].stargazers_count
+                }
+                document.getElementById("stargazers").innerText = l;
+            }));
+        });
+        $(document).ready(function () {
+            jQuery.when(jQuery.getJSON('https://api.github.com/users/mikhailadvani/received_events').done(function (received_events) {
+                document.getElementById("received_events").innerText = received_events.length;
+            }));
+        });
+        $(document).ready(function () {
+            jQuery.when(jQuery.getJSON('https://api.github.com/users/mikhailadvani').done(function (user) {
+                document.getElementById("followers").innerText = user.followers;
+                document.getElementById("projects").innerText = user.public_repos;
+            }));
         });
     </script>
 </body>

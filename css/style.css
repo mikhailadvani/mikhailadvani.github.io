@@ -515,7 +515,7 @@ h3.w3l_head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/mikhail_banner.jpg) no-repeat center top;
+      background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -707,7 +707,7 @@ p.b_label {
 }
 /*-- //portfolio --*/
 #counter {
-    background: url(../images/mikhail_banner.jpg) no-repeat center top;
+    background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
