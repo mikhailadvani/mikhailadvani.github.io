@@ -206,26 +206,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="container">
             <!--count-down -->
             <div class="count">
+                <div class="col-md-3 agile_count_grid">
+                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                    <h5>Twitter Followers</h5>
+                    <p class="counter" id="twitter_followers">Information Not Available</p>
+                </div>
                 <a href="https://github.com/mikhailadvani?tab=repositories">
                     <div class="col-md-3 agile_count_grid">
                         <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
                         <h5>PROJECTS</h5>
                         <p class="counter" id="projects">Information Not Available</p>
                     </div></a>
-                <div class="col-md-3 agile_count_grid">
-                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                    <h5>Followers</h5>
-                    <p class="counter" id="followers">Information Not Available</p>
-                </div>
                 <div class="col-md-3 agile_count_grid c3">
                     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                     <h5>Star Gazers</h5>
                     <p class="counter" id="stargazers">Information Not Available</p>
                 </div>
                 <div class="col-md-3 agile_count_grid c4">
-                    <span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"></span>
-                    <h5>Received Events</h5>
-                    <p class="counter" id="received_events">Information Not Available</p>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <h5>Github Followers</h5>
+                    <p class="counter" id="followers">Information Not Available</p>
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -448,8 +448,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             }));
         });
         $(document).ready(function () {
-            jQuery.when(jQuery.getJSON('https://api.github.com/users/mikhailadvani/received_events').done(function (received_events) {
-                document.getElementById("received_events").innerText = received_events.length;
+            jQuery.when(jQuery.getJSON('/twitter_follower_count.json').done(function (twitter_followers) {
+                document.getElementById("twitter_followers").innerText = twitter_followers.count;
             }));
         });
         $(document).ready(function () {
