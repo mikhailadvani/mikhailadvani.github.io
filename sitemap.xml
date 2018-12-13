@@ -4,10 +4,4 @@
         <loc>https://mikhailadvani.github.io/</loc>
         <priority>1.0</priority>
     </url>
-    <url>
-        <loc>https://mikhailadvani.github.io/blog/secret-management-with-ansible.html</loc>
-        <lastmod>2017-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
 </urlset>
